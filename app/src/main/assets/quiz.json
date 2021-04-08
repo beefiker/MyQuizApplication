@@ -1,0 +1,542 @@
+[
+  {
+    "type" : "Linux",
+    "word" : "파일의 뒤 10행만 출력",
+    "answerlist": {
+      "a1" : "tail",
+      "a2" : "more",
+      "a3" : "head"
+    },
+    "answer" : "tail"
+  },
+  {
+    "type" : "Linux",
+    "word" : "파일의 앞 10행만 출력",
+    "answerlist": {
+      "a1" : "tail",
+      "a2" : "head",
+      "a3" : "less"
+    },
+    "answer" : "head"
+  },
+  {
+    "type" : "Linux",
+    "word" : "런레벨 중 텍스트 모드의 레벨은?",
+    "answerlist": {
+      "a1" : "3",
+      "a2" : "5",
+      "a3" : "6"
+    },
+    "answer" : "3"
+  },
+  {
+    "type" : "Linux",
+    "word" : "런레벨 중 GUI 유저의 레벨은?",
+    "answerlist": {
+      "a1" : "3",
+      "a2" : "5",
+      "a3" : "6"
+    },
+    "answer" : "5"
+  },
+  {
+    "type" : "Linux",
+    "word" : "런레벨 중 재부팅 레벨은?",
+    "answerlist": {
+      "a1" : "3",
+      "a2" : "5",
+      "a3" : "6"
+    },
+    "answer" : "6"
+  },
+  {
+    "type" : "Linux Subjective",
+    "word" : "현재 작업중인 경로를\n확인하는 명령어는?",
+    "answer" : "pwd"
+  },
+  {
+    "type" : "Linux Subjective",
+    "word" : "현재 로그인한 사용자의\nID를 출력하는 명령어는?",
+    "answer" : "whoami"
+  },
+  {
+    "type" : "Linux Subjective",
+    "word" : "실행했던 명령어들을 보는\n 명령어는 무엇인가?",
+    "answer" : "history"
+  },
+  {
+    "type" : "Linux",
+    "word" : "파일에 대한 내용을\n거꾸로 정렬하는 방법은?",
+    "answerlist": {
+      "a1" : "sort -reverse",
+      "a2" : "reverse",
+      "a3" : "sort -r"
+    },
+    "answer" : "sort -r"
+  },
+  {
+    "type" : "Linux",
+    "word" : "네트워크 접속상태를 확인하는\n간단한 명령어는?",
+    "answerlist": {
+      "a1" : "nslookup",
+      "a2" : "ifconfig",
+      "a3" : "ping"
+    },
+    "answer" : "ping"
+  },
+  {
+    "type" : "Linux",
+    "word" : "해당 장치의 IP 주소와\n관련 정보를 출력하는 명령어는?",
+    "answerlist": {
+      "a1" : "ipconfig",
+      "a2" : "ifconfig",
+      "a3" : "ping"
+    },
+    "answer" : "ifconfig"
+  },
+  {
+    "type" : "Linux",
+    "word" : "vi에서 입력모드로 들어가는\n알파벳이 아닌것은?",
+    "answerlist": {
+      "a1" : "O",
+      "a2" : "s",
+      "a3" : "x"
+    },
+    "answer" : "x"
+  },
+  {
+    "type" : "Linux",
+    "word" : "vi에서 커서가 위치한 행을\n지우는 알파벳은?",
+    "answerlist": {
+      "a1" : "xx",
+      "a2" : "yy",
+      "a3" : "dd"
+    },
+    "answer" : "dd"
+  },
+  {
+    "type" : "Linux",
+    "word" : "/bin에서 .swp으로 끝나는 파일을\n삭제하는 명령어는?",
+    "answerlist": {
+      "a1" : "find /bin -name '*.swp' -exer rf {} \\;",
+      "a2" : "find /bin -name '*.swp' -exec rm {} \\;",
+      "a3" : "find /bin -name swp -exec rm {} \\;"
+    },
+    "answer" : "find /bin -name '*.swp' -exec rm {} \\;"
+  },
+  {
+    "type" : "Linux",
+    "word" : "부모 디렉토리 내부의 FileA을\n소유자와 그룹원만\n읽고 실행할 수 있게 설정해라",
+    "answerlist": {
+      "a1" : "chmod 550 ../FileA",
+      "a2" : "chmod 440 ../FileA",
+      "a3" : "chmod 660 ../FileA"
+    },
+    "answer" : "chmod 550 ../FileA"
+  },
+  {
+    "type" : "English Subjective",
+    "word" : "ATTN은 무엇의 약자인가?",
+    "answer" : "Attention"
+  },
+  {
+    "type" : "English",
+    "word" : "Interviewer",
+    "answerlist": {
+      "a1" : "면접",
+      "a2" : "면접관",
+      "a3" : "면접을 보다"
+    },
+    "answer" : "면접관"
+  },
+  {
+    "type" : "English",
+    "word" : "Chronologically",
+    "answerlist": {
+      "a1" : "시간 역순으로",
+      "a2" : "연대 역순으로",
+      "a3" : "시간 순으로"
+    },
+    "answer" : "시간 순으로"
+  },
+  {
+    "type" : "English",
+    "word" : "Objective",
+    "answerlist": {
+      "a1" : "과제",
+      "a2" : "목표",
+      "a3" : "객체"
+    },
+    "answer" : "목표"
+  },
+  {
+    "type" : "English",
+    "word" : "Bachelor's degree",
+    "answerlist": {
+      "a1" : "학사학위",
+      "a2" : "정도",
+      "a3" : "학위"
+    },
+    "answer" : "학사학위"
+  },
+  {
+    "type" : "English",
+    "word" : "Associate degree",
+    "answerlist": {
+      "a1" : "학사학위",
+      "a2" : "학위에 준하는",
+      "a3" : "전문학사학위"
+    },
+    "answer" : "전문학사학위"
+  },
+  {
+    "type" : "English",
+    "word" : "Responsibility",
+    "answerlist": {
+      "a1" : "반응",
+      "a2" : "대응",
+      "a3" : "책무"
+    },
+    "answer" : "책무"
+  },
+  {
+    "type" : "English",
+    "word" : "Qualification",
+    "answerlist": {
+      "a1" : "자격",
+      "a2" : "자격지심",
+      "a3" : "품질"
+    },
+    "answer" : "자격"
+  },
+  {
+    "type" : "English",
+    "word" : "Achievement",
+    "answerlist": {
+      "a1" : "달성하다",
+      "a2" : "업적",
+      "a3" : "이뤄지다"
+    },
+    "answer" : "업적"
+  },
+  {
+    "type" : "English",
+    "word" : "Scholarship",
+    "answerlist": {
+      "a1" : "학자",
+      "a2" : "학자들이 타는 배",
+      "a3" : "장학금"
+    },
+    "answer" : "장학금"
+  },
+  {
+    "type" : "English",
+    "word" : "Reference",
+    "answerlist": {
+      "a1" : "참고자료",
+      "a2" : "덧대다",
+      "a3" : "리퍼를 받다"
+    },
+    "answer" : "참고자료"
+  },
+  {
+    "type" : "English",
+    "word" : "Upon request",
+    "answerlist": {
+      "a1" : "~에 관하여",
+      "a2" : "신청받다",
+      "a3" : "신청에 의헤"
+    },
+    "answer" : "신청에 의헤"
+  },
+  {
+    "type" : "English",
+    "word" : "Colleague",
+    "answerlist": {
+      "a1" : "동료",
+      "a2" : "대학",
+      "a3" : "대회"
+    },
+    "answer" : "동료"
+  },
+  {
+    "type" : "English",
+    "word" : "Valuable",
+    "answerlist": {
+      "a1" : "변수의",
+      "a2" : "변수같은",
+      "a3" : "가치있는"
+    },
+    "answer" : "가치있는"
+  },
+  {
+    "type" : "English",
+    "word" : "Diverse",
+    "answerlist": {
+      "a1" : "잠수부",
+      "a2" : "다양한",
+      "a3" : "시"
+    },
+    "answer" : "다양한"
+  },
+  {
+    "type" : "English",
+    "word" : "Committed to",
+    "answerlist": {
+      "a1" : "~를 저지르다",
+      "a2" : "~를 범하다",
+      "a3" : "~에 헌신적인"
+    },
+    "answer" : "~에 헌신적인"
+  },
+  {
+    "type" : "English",
+    "word" : "Competent",
+    "answerlist": {
+      "a1" : "유능한",
+      "a2" : "무능한",
+      "a3" : "유식한"
+    },
+    "answer" : "유능한"
+  },
+  {
+    "type" : "English",
+    "word" : "Oral",
+    "answerlist": {
+      "a1" : "구술의",
+      "a2" : "치과의",
+      "a3" : "입냄새"
+    },
+    "answer" : "구술의"
+  },
+  {
+    "type" : "English",
+    "word" : "Interpersonal",
+    "answerlist": {
+      "a1" : "개인적인",
+      "a2" : "(인터넷에서의) 개인성",
+      "a3" : "대인관계의"
+    },
+    "answer" : "대인관계의"
+  },
+  {
+    "type" : "English",
+    "word" : "Concerning",
+    "answerlist": {
+      "a1" : "콘서트가 진행 중인",
+      "a2" : "관련된",
+      "a3" : "우려"
+    },
+    "answer" : "관련된"
+  },
+  {
+    "type" : "English",
+    "word" : "Maintain",
+    "answerlist": {
+      "a1" : "유지하다",
+      "a2" : "입구",
+      "a3" : "들어가다"
+    },
+    "answer" : "유지하다"
+  },
+  {
+    "type" : "English",
+    "word" : "Finance",
+    "answerlist": {
+      "a1" : "수단",
+      "a2" : "자금",
+      "a3" : "적금"
+    },
+    "answer" : "자금"
+  },
+  {
+    "type" : "English",
+    "word" : "Burden",
+    "answerlist": {
+      "a1" : "부담스럽다",
+      "a2" : "부담을 갖다",
+      "a3" : "부담을 지우다"
+    },
+    "answer" : "부담을 지우다"
+  },
+  {
+    "type" : "English",
+    "word" : "Senior",
+    "answerlist": {
+      "a1" : "세뇨르",
+      "a2" : "(계급, 지위가) 하위의",
+      "a3" : "(계급, 지위가) 고위의"
+    },
+    "answer" : "(계급, 지위가) 고위의"
+  },
+  {
+    "type" : "English",
+    "word" : "Procedure",
+    "answerlist": {
+      "a1" : "절차",
+      "a2" : "방법",
+      "a3" : "프로듀스"
+    },
+    "answer" : "절차"
+  },
+  {
+    "type" : "English",
+    "word" : "Patient",
+    "answerlist": {
+      "a1" : "조롱",
+      "a2" : "환자",
+      "a3" : "성급한"
+    },
+    "answer" : "환자"
+  },
+  {
+    "type" : "English",
+    "word" : "Consistent",
+    "answerlist": {
+      "a1" : "일관된",
+      "a2" : "이루어진",
+      "a3" : "구성되다"
+    },
+    "answer" : "일관된"
+  },
+  {
+    "type" : "English",
+    "word" : "In spite of",
+    "answerlist": {
+      "a1" : "~에도 불구하고",
+      "a2" : "앙심의",
+      "a3" : "괴롭히"
+    },
+    "answer" : "~에도 불구하고"
+  },
+  {
+    "type" : "English",
+    "word" : "Bulletin board",
+    "answerlist": {
+      "a1" : "총알이 박힌 판",
+      "a2" : "공지사항",
+      "a3" : "게시판"
+    },
+    "answer" : "게시판"
+  },
+  {
+    "type" : "English",
+    "word" : "Although",
+    "answerlist": {
+      "a1" : "일지",
+      "a2" : "그러나",
+      "a3" : "알트"
+    },
+    "answer" : "그러나"
+  },
+  {
+    "type" : "English",
+    "word" : "State",
+    "answerlist": {
+      "a1" : "서술하다",
+      "a2" : "시작하다",
+      "a3" : "국가적인"
+    },
+    "answer" : "서술하다"
+  },
+  {
+    "type" : "English",
+    "word" : "Retirement home",
+    "answerlist": {
+      "a1" : "해고전문기관",
+      "a2" : "퇴직지원시설",
+      "a3" : "노인요양시설"
+    },
+    "answer" : "노인요양시설"
+  },
+  {
+    "type" : "English",
+    "word" : "Co-worker",
+    "answerlist": {
+      "a1" : "동료",
+      "a2" : "협력",
+      "a3" : "협동"
+    },
+    "answer" : "동료"
+  },
+  {
+    "type" : "English",
+    "word" : "Put forth an effort",
+    "answerlist": {
+      "a1" : "노력을 기울이다",
+      "a2" : "노력을 하지않다",
+      "a3" : "수고하다"
+    },
+    "answer" : "노력을 기울이다"
+  },
+  {
+    "type" : "English",
+    "word" : "Punctuation",
+    "answerlist": {
+      "a1" : "펑크",
+      "a2" : "함수",
+      "a3" : "문장부호"
+    },
+    "answer" : "문장부호"
+  },
+  {
+    "type" : "English",
+    "word" : "Typo",
+    "answerlist": {
+      "a1" : "글씨체",
+      "a2" : "문단",
+      "a3" : "오타"
+    },
+    "answer" : "오타"
+  },
+  {
+    "type" : "English",
+    "word" : "Wordy",
+    "answerlist": {
+      "a1" : "(표현이) 글같은",
+      "a2" : "표현이 딱딱한",
+      "a3" : "(표현, 말이) 장황한"
+    },
+    "answer" : "(표현, 말이) 장황한"
+  },
+  {
+    "type" : "English",
+    "word" : "Concise",
+    "answerlist": {
+      "a1" : "간결한",
+      "a2" : "콘치즈",
+      "a3" : "복잡한"
+    },
+    "answer" : "간결한"
+  },
+  {
+    "type" : "English",
+    "word" : "Bulk discount",
+    "answerlist": {
+      "a1" : "대량 구입시의 할인",
+      "a2" : "불량품의 할인",
+      "a3" : "손상품의 할인"
+    },
+    "answer" : "대량 구입시의 할인"
+  },
+  {
+    "type" : "English",
+    "word" : "Scarves",
+    "answerlist": {
+      "a1" : "조각하다",
+      "a2" : "(복수형) 스카프",
+      "a3" : "상처나다"
+    },
+    "answer" : "(복수형) 스카프"
+  },
+  {
+    "type" : "English",
+    "word" : "Unit",
+    "answerlist": {
+      "a1" : "물체",
+      "a2" : "문단",
+      "a3" : "구성 단위"
+    },
+    "answer" : "구성 단위"
+  }
+]

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242424"
+    android:orientation="vertical">
+
+    <ViewFlipper
+        android:id="@+id/viewFlip1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#242424">
+
+            <TextView
+                android:id="@+id/questionNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@id/Qtype"
+                android:text="QuestionNumber"
+                android:textColor="#fff"
+                android:fontFamily="@font/scdream3"
+                android:textStyle="bold"
+                android:textSize="14dp"/>
+            <TextView
+                android:id="@+id/Qtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@id/question"
+                android:text="TYPE"
+                android:textStyle="italic|bold"
+                android:textColor="#0071EB"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginBottom="10dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="Question"
+                android:textColor="#F9C901"
+                android:fontFamily="@font/scdream4"
+                android:textSize="24dp"/>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#262626"
+            android:layout_margin="20dp"
+            android:elevation="20dp"
+            android:descendantFocusability="blocksDescendants" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#232323"
+                android:elevation="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/incorrectTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F9C901"
+                    android:fontFamily="@font/scdream3"
+                    android:text="asd"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/viewFlip2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="40dp"
+            android:background="#262626">
+
+            <Button
+                android:id="@+id/answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:background="#242424"
+                android:elevation="10dp"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/scdream3"
+                android:textAllCaps="false"
+                android:text="Answer 1"/>
+            <Button
+                android:id="@+id/answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/answer1"
+                android:textColor="#ffffff"
+                android:background="#242424"
+                android:elevation="10dp"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/scdream3"
+                android:textAllCaps="false"
+                android:text="Answer 2"/>
+            <Button
+                android:id="@+id/answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/answer2"
+                android:textColor="#ffffff"
+                android:background="#242424"
+                android:elevation="10dp"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/scdream3"
+                android:textAllCaps="false"
+                android:text="Answer 3"/>
+
+            <EditText
+                android:id="@+id/editSub"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/answer2"
+                android:hint="Your answer"
+                android:textStyle="bold"
+                android:textColorHint="#666666"
+                android:textColor="#fff"
+                android:ems="7"
+                android:maxLines="1"
+                android:fontFamily="@font/scdream3"
+                android:background="@null"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/checkSub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editSub"
+                android:textColor="#ffffff"
+                android:background="#242424"
+                android:elevation="10dp"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/scdream3"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:text="확인"/>
+            <TextView
+                android:id="@+id/progressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/20"
+                android:layout_above="@+id/progress"
+                android:fontFamily="@font/scdream3"
+                android:textColor="#ffffff"
+                android:textSize="10dp"
+                android:layout_alignParentRight="true"/>
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progressBackgroundTint="#F9C901"
+                android:progressTint="#F9C901"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:max="100"
+                android:progress="1"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="키워드 : "
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:id="@+id/editWord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="5"
+                    android:hint="Word"
+                    android:textStyle="bold"
+                    android:textColorHint="#c9d6df"
+                    android:textColor="#0071EB"
+                    android:ems="7"
+                    android:maxLines="1"
+                    android:background="@null"
+                    android:fontFamily="@font/scdream3"
+                    />
+
+                <ImageButton
+                    android:id="@+id/btnGo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@android:color/transparent"
+                    android:textAllCaps="false"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/baseline_search_white_18dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/btnBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/transparent"
+                    android:textAllCaps="false"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/scdream3"
+                    android:src="@drawable/baseline_clear_white_18dp"/>
+
+            </LinearLayout>
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </ViewFlipper>
+
+
+</LinearLayout>
